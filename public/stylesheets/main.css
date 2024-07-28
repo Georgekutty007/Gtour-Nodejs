@@ -224,7 +224,7 @@
   \*-----------------------------------*/
   
   .hero {
-    background-image: url("./Images/Gal13.png");
+    background-image: url("/images/Gal13.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -257,44 +257,7 @@
   
   
   
-  /*-----------------------------------*\
-   * #TOUR SEARCH
-  \*-----------------------------------*/
   
-  .tour-search {
-    background: var(--bright-navy-blue);
-    padding-block: var(--section-padding);
-  }
-  
-  .tour-search-form .input-label {
-    color: var(--white);
-    font-size: var(--fs-4);
-    margin-left: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .tour-search-form .input-field {
-    background: var(--white);
-    padding: 10px 15px;
-    font-size: var(--fs-5);
-    border-radius: 50px;
-  }
-  
-  .tour-search-form .input-field::placeholder { color: var(--spanish-gray); }
-  
-  .tour-search-form .input-field::-webkit-datetime-edit {
-    color: var(--spanish-gray);
-    text-transform: uppercase;
-  }
-  
-  .tour-search-form .input-wrapper { margin-bottom: 15px; }
-  
-  .tour-search .btn {
-    width: 100%;
-    --border-width: 1px;
-    font-weight: var(--fw-600);
-    margin-top: 35px;
-  }
   
   
   
@@ -365,7 +328,7 @@
 
 
 .package {
-  background-image: url("./Images/Packageback.jpg");
+  background-image: url("/images/Packageback.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px;
