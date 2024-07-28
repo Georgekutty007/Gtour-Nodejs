@@ -1,26 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
-    <link rel="stylesheet" href="/stylesheets/main.css">
-</head>
-<body>
-    <main>
-        <section>
-            <div class="container">
-                <div class="heading">
-                    <h1>Shopping cart</h1>
-                </div>
-                <div class="buttton-group">
-                    <a href="/login"><button class="btn"> Login </button></a>
-                    <a href="/signup"><button class="btn">Sign Up</button></a>
-                </div>
-            </div>
-        </section>
-    </main>
-</body>
+    <title>Travel Agency</title>
+    
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
+ 
+    <link rel="stylesheet" href="/stylesheets/main.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      
+<head>
+<body id="top">
+    <header class="header" data-header>
+        <div class="overlay" data-overlay></div>
+        <div class="header-bottom">
+           
+
+              <nav class="navbar" data-navbar>
+      
+                <ul class="navbar-list">
+      
+                  <li>
+                    <a href="#home" class="navbar-link" data-nav-link>home</a>
+                  </li>
+      
+                  <li>
+                    <a href="#about" class="navbar-link" data-nav-link>about us</a>
+                  </li>
+      
+                  <li>
+                    <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+                  </li>
+      
+                  <li>
+                    <a href="#package" class="navbar-link" data-nav-link>packages</a>
+                  </li>
+      
+                  <li>
+                    <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+                  </li>
+      
+                  <li>
+                    <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+                  </li>
+      
+                </ul>
+      
+              </nav>
+      
+      
+            </div>
+          </div>
+      
+        </header>
+        <main>
+            <article>
+        
+        
+              <section class="hero" id="home">
+                <div class="container">
+        
+                  <h2 class="h1 hero-title">Explore Kerala</h2>
+        
+                  <p class="hero-text">
+                    This is a page which will help you to explore various places around kerala.
+                  </p>
+        
+                  <div class="btn-group">
+                    <a href="/login"><button class="btn btn-primary">Login</button></a>
+        
+                    <a href="/signup"><button class="btn btn-secondary">Sign in</button></a>
+                  </div>
+        
+                </div>
+              </section>
+
+
+              <section class="tour-search">
+                <div class="container">
+        
+                  <form action="" class="tour-search-form">
+        
+                    <div class="input-wrapper">
+                      <label for="destination" class="input-label">Search Destination*</label>
+        
+                      <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                        class="input-field">
+                    </div>
+        
+                    <div class="input-wrapper">
+                      <label for="people" class="input-label">No of People*</label>
+        
+                      <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field" min="1">
+                    </div>
+        
+                    <div class="input-wrapper">
+                      <label for="checkin" class="input-label">Checkin Date**</label>
+        
+                      <input type="date" name="checkin" id="checkin" required class="input-field">
+                    </div>
+        
+                    <div class="input-wrapper">
+                      <label for="checkout" class="input-label">Checkout Date*</label>
+        
+                      <input type="date" name="checkout" id="checkout" required class="input-field">
+                    </div>
+        
+                    <button type="submit" class="btn btn-secondary" >Inquire now</button>
+        
+                  </form>
+        
+                </div>
+              </section>
+              <section class="destination" id="destination">
+                <h1>Top Destinations</h1>
+        
+                    <p>
+                      Click on the following images to go through various Destinations.
+                    </p>
+                <div class="contain">
+                    <div class="row">
+                        <a href="./Destination/hillstation.html"><img src="./Images/Hill.png" alt="Hill Station"></a>
+                        <a href="./Destination/backwater.html"><img src="./Images/Backwater.png" alt="Backwaters"></a>
+                        <a href="./Destination/beaches.html"><img src="./Images/Beaches.png" alt="Beach"></a>
+                        <a href="./Destination/mountain.html"><img src="./Images/Mountains.png" alt="Mountain"></a>
+                    </div>
+                    <div class="row">
+                        <a href="./Destination/art.html"><img src="./Images/Art.png" alt="Art"></a>
+                        <a href="./Destination/forest.html"><img src="./Images/Forest.png" alt="Forest"></a>
+                        <a href="./Destination/picnicspot.html"><img src="./Images/Picnic.png" alt="Picnic spot"></a>
+                        <a href="./Destination/waterfall.html"><img src="./Images/Waterfall.png" alt="Waterfalls"></a>
+                    </div>
+                    <div class="row">
+                      <a href="./Destination/kochi.html"><img src="./Images/Kochi.jpeg" alt="Kochi"></a>
+                      <a href="./Destination/Monuments.html"><img src="./Images/Monuments.jpeg" alt="Monuments"></a>
+                      <a href="./Destination/Festivals.html"><img src="./Images/Festivals.jpg" alt="Festivals"></a>
+                      <a href="./Destination/Dams.html"><img src="./Images/Dam.jpg" alt="Dams"></a>
+                      
+                  </div>
+                </div>
+              </section>
+
+              <section class="package" id="package">
+                <div class="container">
+                    <h1>Packages</h1>
+                    <div class="rows">
+                        <div class="pack-text">
+                            <h2>Premium</h2>
+                        </div>
+                        <div class="pack-details">
+                            <p>A Premium package which provides a highly luxurious experience.</p><br>
+                        </div>
+                        <div class="pack-image">
+                            <button onclick="premium()" class="bbt">Details</button>
+                        </div>
+                    </div>
+        
+                    <div class="rows">
+                        <div class="pack-text">
+                            <h2>Normal</h2>
+                        </div>
+                        <div class="pack-details">
+                            <p>A package which provides a travel experience at a normal rate.</p><br>
+                        </div>
+                        <div class="pack-image">
+                            <button onclick="normal()" class="bbt">Details</button>
+                        </div>
+                    </div>
+        
+                    <div class="rows">
+                        <div class="pack-text">
+                            <h2>Budget Friendly</h2>
+                        </div>
+                        <div class="pack-details">
+                            <p>A budget-friendly travel experience which provides a better experience.</p><br>
+                        </div>
+                        <div class="pack-image">
+                            <button onclick="budget()" class="bbt">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+              <section class="gallery" id="gallery">
+                <h1>Photos from Travellers</h1>
+                <p>These are some of the photos captured by travellers during their journey through kerala.</p>
+                <div class="contain">
+                    <div class="row">
+                        <img src="./Images/Gal1.png">
+                        <img src="./Images/Gal5.png">
+                        <img src="./Images/Gal8.png">
+                        <img src="./Images/Gal2.png">
+                    </div>
+                    <div class="row">
+                        <img src="./Images/Gal9.png">
+                        <img src="./Images/Gal10.png">
+                        <img src="./Images/Gal11.png">
+                    </div>
+                </div>
+              </section>
+              
+              <section class="contact" id="contact">
+                <div class="container">
+        
+                  <div class="contact-content">
+
+                    <h1>Contact US!</h1>
+        
+                    <h2>Ready For Unforgatable Travel. Remember Us!</h2>
+        
+                    <p><br>
+                      We are always here to you on any of your problems during your trip.
+                      You can contact us for any help you need during the travel.
+                    </p><br>
+                    <div class="mail">
+                      <p><i class="fa fa-envelope"></i> Email:abc@gmail.com</p>
+                    </div>
+                    <div class="ph">
+                      <p><i class="fa fa-phone"></i> PH:1234567890</p> 
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="about" id="about">
+
+                <div class="grid">
+
+                  <div class="grid1">
+                    <h1>About Us</h1>
+                    <p>This is a virtual travel agency website which <br>helps travellers 
+                      to explore famous tourist <br> places in kerala.</p>
+                  </div>
+  
+                  <div class="grid2">
+                    <h1>Links</h1>
+                    <div class="about-links">
+                      <p><a href="#">Instagram</a></p>
+                      <p><a href="#">Facebook</a></p>
+                      <p><a href="#">Twitter</a></p>
+                      <p><a href="#">Linkedin</a></p>
+                    </div>
+
+                </div>
+
+                <div class="grid3">
+                  <h1>Services</h1>
+                  <div class="about-links">
+                    <p><a href="#destination">Destination</a></p>
+                    <p><a href="#package">Packages</a></p>
+                    <p><a href="#gallery">Gallery</a></p>
+                    <p><a href="#contact">Contact Us</a></p>
+                  </div>
+                </div>
+
+                <div class="grid4">
+                  <div class="pics">
+                    <br><br><img src="./logo/Logo.PNG" >
+                  </div><br>
+                  <p><a href="Learnmore.html">Privacy policy</a></p>
+                </div>
+
+                </div>
+
+              </section>
+
+            </article>
+            <script src="script.js"></script>
+        </main>
+
+        <footer>
+          <p>All Rights reserverd &copy; 2024 | Made by George</p>
+          <div class="followme-wrap">
+  
+            <div class="followme">
+            <br><br><br><br>
+            
+              <h3>Follow me</h3>
+            
+              <span class="footer-line"></span>
+            
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            
+            </div>
+            
+            </div>
+        </footer>
+</body>
 </html>
